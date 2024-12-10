@@ -513,7 +513,315 @@ body{
     background: transparent;
     color: #323232;
 }
+.women-clothing {
+    padding: 70px 58px;
+}
+.women-clothing .container {
+    height: 500px;
+    border: 1px solid #ededde;
+    display: flex;
+}
+.women-clothing .container .bg-img {
+    width: 18%;
+    background:url(../img/women_bg-1.jpg);
+}
+.women-clothing .container .b-img {
+    width: 18%;
+    background:url(../img/man_bg-1-1.jpg);
+}
+.women-clothing .container .c-img {
+    width: 18%;
+    background:url(../img/22-1.png);
+}
+.women-clothing .container .d-img {
+    width: 18%;
+    background:url(../img/laptop_bg-1-1.jpg);
+}
+.women-clothing .container .e-img {
+    width: 18%;
+    background:url(../img/22-1.png);
+}
+.women-clothing .container .sample-women{
+    width: 25%;
+    overflow: hidden;
+}
+.women-clothing .container .sample-women img{
+    width: 120%;
+}
+.women-clothing .container .product-cart-box{
+    background-color:white;
+    flex-grow: 1;
+}
+.women-clothing .container .bg-img div {
+    background: rgba(29,183,203,0.9);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.women-clothing .container .b-img div {
+    background: rgba(161, 91, 129, 0.9);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.women-clothing .container .c-img div {
+    background: rgba(29, 90, 203, 0.9);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.women-clothing .container .d-img div {
+    background: rgba(15, 181, 184, 0.9);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.women-clothing .container .e-img div {
+    background: rgba(19, 187, 111, 0.9);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.women-clothing .container .bg-img button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.product-cart-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    padding:  0 32px;
+}
+.product-cart-box>div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-cart-box>div img {
+    width: 120px;
 
+}
+.product-cart-box .title {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+.product-cart-box .price {
+    color: dodgerblue;
+    font-size: 14px;
+}
+.gadget {
+    background: url(/assets/img/15-6-Core-i7-3517U-Netbook-with-bluetooth-wifi-HDMI-VGA-Laptop-Computer-4M-Cache-Intel-1.jpg);
+    background-size: cover;
+}
+.gadget .container {
+    width: 80%;
+    height: 100%;
+    padding-left: 58px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.gadget .container .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gadget .container .title h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.gadget .container .title button {
+    border: none;
+    border-radius: 40px;
+    padding: 18px 32px;
+    background: #fed700;
+}
+.gadget .container .card-box {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 24px;
+    padding: 16px 0;
+}
+.gadget .container .card {
+    width: calc(50% - 24px);
+    height: 300px;
+    background: white;
+    box-shadow: 0 0 8px #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 0 24px;
+}
+.gadget .container .Read-More {
+    border: none;
+    background: dodgerblue;
+    border-radius: 40px;
+    padding: 12px 48px;
+    color: white;
+}
+.gadget .container .title {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.gadget .container del {
+    color: gray;
+}
+.gadget .container .card img {
+    width: 200px;
+}
+.trending {
+    display: flex;
+    padding: 100px 58px;
+}
+.trending .container {
+    width: 80%;
+}
+.trending .menu {
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #ededde;
+    padding-bottom: 16px;
+}
+.trending .menu button {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+}
+.p-trending {
+    display: flex;
+    flex-wrap: wrap;
+}
+.p-trending img {
+    width: 60%;
+}
+.p-trending>div {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+}
+.p-trending>div h6 {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+.p-trending>div p {
+    padding: 0;
+    margin: 0;
+}
+.sponsor {
+    padding: 80px 58px;
+    background: #333e48;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer {
+    padding: 100px 58px;
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+}
+.footer>div {
+    width: 25%;
+    height: 100%;
+}
+.footer .first {
+    padding-right: 24px;
+}
+.footer .first h1 {
+    font-weight: 300;
+    color: #323232;
+    font-size: 20px;
+    margin-top: 48px;
+}
+.footer .first h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer address {
+    color: gray;
+}
+.footer .first button {
+    border: none;
+    background-color: #fed700;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.footer .first button:hover {
+    background: blue;
+}
+.footer .second h1 {
+    font-weight: 300;
+    color: gray;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+.footer .second h2 {
+    font-weight: 500;
+
+}
+.footer .second .img-first {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.footer .second .img-second {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.footer .third h4 {
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer .third ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer .third ul  li {
+    margin-bottom: 12px;
+}
+.footer .third ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+
+}
+.botton-footer {
+
+    padding: 20px 58px;
+    background: #fed700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botton-footer button {
+    border: none;
+    background: transparent;
+}
+.botton-footer p {
+    color: black;
+}
 @keyframes slide-right {
     0% {
         right: -500px;
